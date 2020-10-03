@@ -1,5 +1,10 @@
 -- Tracks time spent in game
 
+--// Dependencies
+-- Requires Quenty's Nevermore Engine: https://github.com/Quenty/NevermoreEngine
+-- Requires DataStore2
+-- Requires TFM
+
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local require = require(ReplicatedStorage:WaitForChild("Nevermore"))
 local Players = game:GetService("Players")
