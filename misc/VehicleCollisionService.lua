@@ -1,4 +1,7 @@
--- Vehicle collisions
+-- Vehicle collision service
+
+--// Dependencies
+-- Requires Quenty's Nevermore Engine: https://github.com/Quenty/NevermoreEngine
 
 local require = require(game:GetService("ReplicatedStorage"):WaitForChild("Nevermore"))
 
